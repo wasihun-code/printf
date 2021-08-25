@@ -1,13 +1,21 @@
-## Printf Repository.<br/>
-This is a project to create out own printf function, that
-print out formated text the stdout
-The _printf fucntion is working exactly as the standard printf
-function. it uses varidic fuction, since the exact number of
-arguments are not known.
-Also we used a write system call to print out to the stdout
-
-For more inforamtion you can refere the manual page for the
-prinf function
-
-This projct writen by Michael Tutuani and Getayawkal tamrat
-# printf
+# Printf()
+-------------------------------------------------------------------------------------
+The aim of this project is to design and implement a function similar to the standard library's ``printf()``.
+Files contained in this directory include:
+  * ## Holberton.h
+    - This is the header file containing function prototypes and macro definitions used across this project.
+  
+  * ## printchar
+      - This is a helper function that prints a character when the ``%c`` format specification is used.  
+  * ## _putchar
+    - This is a function that prints out a character specified by the argument char to stdout.
+    - ### Declaration: 
+       ``int _putchar(char c)``
+    - ### Parameters:
+       ``char c`` is the character to be written.
+    - ### Return
+       The function returns the character to be printed to std out, it returns an EOF upon error.
+   
+   
+      
+  
